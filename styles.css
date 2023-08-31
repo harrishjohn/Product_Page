@@ -1,0 +1,294 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    background-color:rgb(133, 120, 120);
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    }
+
+
+.logo a{
+    color: white;
+    font-size: 35px;
+    /* position: relative;
+    top: 20px; */
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 25px; 
+    font-weight: bold; 
+    margin-right: 60px;
+    
+    
+}
+.wallpaper img
+{
+    width: 100%;
+}
+.box{
+    display:flex;
+    height: 350px;
+    margin:0;
+}
+.column{
+    flex: 70%;
+    background-color:rgb(221, 212, 179);
+    
+}
+.column1{
+    flex: 30%;
+    background-color:rgb(221, 212, 179);
+    
+}
+.column1 img
+{
+    /* width: 330px; */
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.intro{
+    color: black;
+    padding-left: 30px;
+    margin-top: 50px;
+    font-size:  40px;
+}
+
+.para{
+    color: black;
+
+    margin-top: 50px;
+    font-size:  20px;
+}
+.why{
+    
+    height: 450px;
+    padding: 0px;
+    display: flex;
+}
+.why1{
+    background-color:white;
+    flex: 30%;
+}
+.why1 img{
+    height: 450px;
+    /* margin-top: 20px; */
+    /* margin-left: 80px; */
+}
+.why2{
+    flex: 70%;
+    background-color:whitesmoke;
+    
+}
+.why2 p{
+    margin-top: 150px;
+    
+}
+.h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.lore{
+    
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    word-spacing:10px;
+    line-height: 35px;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+}
+.aboutpara{
+    background-color: rgb(107, 151, 124);
+    color: whitesmoke;
+    text-align: center;
+    height:300px; 
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+/* .container2 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color:honeydew;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container3 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color:honeydew;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image {
+    display: block;
+    width: 400px;
+    height:400px;
+
+}
+.pro
+{
+    display: block;
+    width: 400px;
+    height:400px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px ;
+    width: 400px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: honeydew;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px ;
+    width: 400px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: honeydew;
+}
+.container2:hover .overlay {
+    opacity: 1;
+}
+.container3:hover .overlay1 {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.image {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+    background-color:aliceblue;
+    
+
+}
+.heading
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.overlay p{
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    height: 80px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;}
+.footer img{
+    height:50px ;
+}
+.footer p
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
